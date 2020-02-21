@@ -2,13 +2,13 @@
 
 [![Build Status](https://api.travis-ci.org/sqlmapproject/sqlmap.svg?branch=master)](https://travis-ci.org/sqlmapproject/sqlmap) [![Python 2.6|2.7|3.x](https://img.shields.io/badge/python-2.6|2.7|3.x-yellow.svg)](https://www.python.org/) [![License](https://img.shields.io/badge/license-GPLv2-red.svg)](https://raw.githubusercontent.com/sqlmapproject/sqlmap/master/LICENSE) [![PyPI version](https://badge.fury.io/py/sqlmap.svg)](https://badge.fury.io/py/sqlmap) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/sqlmapproject/sqlmap.svg?colorB=ff69b4)](https://github.com/sqlmapproject/sqlmap/issues?q=is%3Aissue+is%3Aclosed) [![Twitter](https://img.shields.io/badge/twitter-@sqlmap-blue.svg)](https://twitter.com/sqlmap)
 
-**sqlmap** est un outil Open Source de test d'intrusion. Cet outil permet d'automatiser le processus de détection et d'exploitation des failles d'injection SQL afin de prendre le contrôle des serveurs de base de données. __sqlmap__ dispose d'un puissant moteur de détection utilisant les techniques les plus récentes et les plus dévastatrices de tests d'intrusion comme L'Injection SQL, qui permet d'accéder à la base de données, au système de fichiers sous-jacent et permet aussi l'exécution des commandes sur le système d'exploitation.
+**sqlmap** est un outil Open Source de test d'intrusion. Cet outil permet d'automatiser le processus de détection et d'exploitation des failles d'injection SQL afin de prendre le contrôle des serveurs de base de données. __sqlmap__ dispose d'un puissant moteur de détection utilisant les techniques les plus récentes et les plus dévastatrices de tests d'intrusion comme l'injection SQL, qui permet d'accéder aux bases de données, au système de fichiers sous-jacent et permet aussi l'exécution des commandes sur le système d'exploitation.
 
 ----
 
 ![Les Captures d'écran](https://raw.github.com/wiki/sqlmapproject/sqlmap/images/sqlmap_screenshot.png)
 
-Les captures d'écran disponible [ici](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) démontrent des fonctionnalités de __sqlmap__.
+Les captures d'écran disponibles [ici](https://github.com/sqlmapproject/sqlmap/wiki/Screenshots) démontrent des fonctionnalités de __sqlmap__.
 
 Installation
 ----
@@ -32,13 +32,13 @@ Pour afficher une liste complète des options et des commutateurs (switches), ta
 
     python sqlmap.py -hh
 
-Vous pouvez regarder un vidéo [ici](https://asciinema.org/a/46601) pour plus d'exemples.
+Vous pouvez regarder une vidéo [ici](https://asciinema.org/a/46601) pour plus d'exemples.
 Pour obtenir un aperçu des ressources de __sqlmap__, une liste des fonctionnalités prises en charge, la description de toutes les options, ainsi que des exemples, nous vous recommandons de consulter [le wiki](https://github.com/sqlmapproject/sqlmap/wiki/Usage).
 
 Liens
 ----
 
-* Page d'acceuil: http://sqlmap.org
+* Page d'accueil: http://sqlmap.org
 * Téléchargement: [.tar.gz](https://github.com/sqlmapproject/sqlmap/tarball/master) ou [.zip](https://github.com/sqlmapproject/sqlmap/zipball/master)
 * Commits RSS feed: https://github.com/sqlmapproject/sqlmap/commits/master.atom
 * Suivi des issues: https://github.com/sqlmapproject/sqlmap/issues
